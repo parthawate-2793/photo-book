@@ -1,0 +1,41 @@
+.photo-book {
+    width: 90vw;
+    max-width: 1200px;
+    height: 80vh;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .navigation-buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 10px;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+  }
+  
+  .nav-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .nav-button:hover:not(:disabled) {
+    background: rgba(0, 0, 0, 1);
+    transform: translateY(-2px);
+  }

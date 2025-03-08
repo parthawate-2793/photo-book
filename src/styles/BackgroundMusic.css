@@ -1,0 +1,19 @@
+.music-control {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .music-control:hover {
+    background: rgba(0, 0, 0, 1);
+    transform: translateY(-2px);
+  }
