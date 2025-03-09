@@ -10,13 +10,38 @@ const PhotoBook = () => {
     const pages = [
         {
             type: 'title',
-            title: 'Title Page',
-            subtitle: 'Below the title'
+            title: 'Love of My Life!',
+            subtitle: 'I know it\'s not a lot, but I gave it my besttt!'
         },
         {
             type: 'content',
-            image: '/images/photo1.jpg',
-            text: 'Page 1 Text'
+            image: '/images/image4.jpg',
+            text: 'For the Two Years we\'ve been together, I\'ve been the happiest I\'ve ever been. I love you so much'
+        },
+        {
+            type: 'content',
+            image: '/images/image5.jpg',
+            text: 'I love your eyes, your smile, your laugh, your voice, your ears, and most of all, I loveeee❤️❤️your heart!'
+        },
+        {
+            type: 'content',
+            image: '/images/image7.jpg',
+            text: 'I am sorry I can be an ass at times, But I never intentioned to hurt you in whichever way, My Love 😘😘'
+        },
+        {
+            type: 'content',
+            image: '/images/image6.jpg',
+            text: '💕💕Thank you so so much for being the amazing person and partner you have been for me.💕💕'
+        },
+        {
+            type: 'content',
+            image: '/images/image8.jpg',
+            text: 'Our relationship is unique and lovely, incomparable to any other. ✨✨'
+        },
+        {
+            type: 'title',
+            title: 'Finally All I can Tell you is again, I know I have not done enough to win you, But trust me as long as you can bear me, I will make sure to work on myself and definitely make you very very happy.',
+            subtitle: 'I LOVE YOU SOOO MUCH❤️😘❤️'
         }
     ];
 
